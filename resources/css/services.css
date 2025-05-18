@@ -1,0 +1,108 @@
+
+
+ .row{
+     padding: 50px;
+     margin-bottom: -85px;
+
+    
+}
+
+.card-item{
+    width: auto;
+    margin-bottom: 25px;
+}
+
+.header-service{
+    font-weight: 500;
+    color: cornflowerblue;
+    font-size: 44px;
+
+}
+
+
+.card-face i{
+  color: rgb(252, 252, 252);
+    position: absolute;
+    top: 25px;
+    font-size: 37px;
+
+}
+
+.card-face p{
+  margin-top: 40px;
+    font-size: 16px;
+
+}
+
+.card-back h3{
+  font-weight: 800;
+  color: rgb(252, 252, 252);
+  position: absolute;
+  top: 25px;
+  font-size: 20px;
+}
+
+
+/* Kart Kapsayıcı */
+.card-container {
+    perspective: 1000px;
+    width: 300px;
+    height: 200px;
+    /* margin: 50px auto; */
+  }
+
+  /* Kart yapısı */
+  .card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+  }
+
+  /* Hover ile dönüş */
+  .card-container:hover .card {
+    transform: rotateY(180deg);
+  }
+
+  /* Kartın yüzleri */
+  .card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 10px; */
+  }
+
+  /* Ön yüz */
+  .card-front {
+    background-color: #3498db;
+    color: white;
+  }
+
+  /* Arka yüz */
+  .card-back {
+    background-color: #3498db;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+@media (max-width:768px)
+{
+    .row{
+       margin-left: -25px;
+       margin-bottom: -85px;
+}
+
+.row:nth-child(1){
+    margin-left: -85px;
+    margin-top: 25px;
+}
+    
+}

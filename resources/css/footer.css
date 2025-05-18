@@ -1,0 +1,108 @@
+.container-main{
+    background-color: #002147;
+    height: auto;
+    margin-top: 25px;
+}
+
+
+.container-main .row{
+    color: white;
+    width: 85%;
+    
+}
+
+.container-main .row ul{
+
+    list-style: none;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.container-main .row ul li img{
+
+   width: 120px;
+}
+
+.footer-logo{
+
+    display: flex;        
+  max-width: 100%;  
+   
+}
+
+.footer-text{
+ 
+  margin: 0;
+  padding: 0;
+  text-align: left;  
+}
+
+.footer-container{
+    text-align: -webkit-center!important;
+}
+
+.footer-icon{
+     display: flex;        
+  max-width: 100%;  
+  flex-direction: column;
+}
+
+.social-icon{
+    width: 50px;
+    height: 50px;
+    background: #187dff;
+    display: flex;
+    margin-right: 10px;
+;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.footer-icon-title{
+    display: flex;
+}
+
+
+.quick-link{
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.span-title{
+    margin-left: 20px;
+}
+
+.footer-post{
+  display: flex;        
+  max-width: 100%;
+ 
+
+}
+
+
+.footer-post-img{
+ 
+    width: 80px;
+    height: 80px;
+
+}
+
+.footer-icon-text{
+    width:inherit;
+    font-size: 18px;
+}
+
+.footer-icon-slogan{
+    width: 200px;
+}
+
+.text-icon-muted{
+    color: #8f7fab;
+}
+
+.contact-icon{
+   
+}
