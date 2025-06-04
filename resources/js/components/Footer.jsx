@@ -7,7 +7,7 @@ function Footer() {
             <div className="container container-main container-fluid">
                 <div className="container footer-container">
                     <div className="row">
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-xs-12">
                             <ul>
                                 <li className='footer-logo'>
                                     <img src="/images/crawft-logo2.png" alt="" />
@@ -29,49 +29,49 @@ function Footer() {
                                         </div>
                                         <div className='social-icon'>
                                             <a href="#">
-                                                <i class="fa-brands fa-instagram"></i>
+                                                <i className="fa-brands fa-instagram"></i>
                                             </a>
                                         </div>
                                         <div className='social-icon'>
                                             <a href="#">
-                                                <i class="fab fa-x-twitter"></i>
+                                                <i className="fab fa-x-twitter"></i>
                                             </a>
                                         </div>
                                         <div className='social-icon'>
                                             <a href="#">
-                                                <i class="fa-brands fa-pinterest"></i>
+                                                <i className="fa-brands fa-pinterest"></i>
                                             </a>
                                         </div>
                                     </div>
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-2 col-xs-12">
                             <label className='fs-5 fw-bold mt-3 footer-icon-title' htmlFor="">Hızlı Linkler</label>
                             <ul className='mt-3'>
                                 <li className='quick-link'>
                                     <a className='footer-text' href="#">
-                                        <i class="fa-solid fa-arrow-right"></i> <span className='span-title'> Anasayfa</span>
+                                        <i className="fa-solid fa-arrow-right"></i> <span className='span-title'> Anasayfa</span>
                                     </a>
                                 </li>
                                 <li className='quick-link'>
                                     <a href="#">
-                                        <i class="fa-solid fa-arrow-right"></i><span className='span-title'> Hakkımızda</span>
+                                        <i className="fa-solid fa-arrow-right"></i><span className='span-title'> Hakkımızda</span>
                                     </a>
                                 </li>
                                 <li className='quick-link'>
                                     <a href="#">
-                                        <i class="fa-solid fa-arrow-right"></i><span className='span-title'> Hizmetler</span>
+                                        <i className="fa-solid fa-arrow-right"></i><span className='span-title'> Hizmetler</span>
                                     </a>
                                 </li>
                                 <li className='quick-link'>
                                     <a href="#">
-                                        <i class="fa-solid fa-arrow-right"></i><span className='span-title'> İletişim</span>
+                                        <i className="fa-solid fa-arrow-right"></i><span className='span-title'> İletişim</span>
                                     </a>
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-xs-12">
                             <ul>
                                 <label className='fs-5 fw-bold mt-3 footer-icon-title' htmlFor="">Son Gönderiler</label>
                                 <li className='footer-post mt-3'>
@@ -95,13 +95,13 @@ function Footer() {
 
                             </ul>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-4 contact col-xs-12 text-center">
                             <ul>
                                 <label className='fs-5 fw-bold mt-3 footer-icon-title' htmlFor="">İletişim</label>
 
-                                <li className='contact-icon'><i class="fa-solid fa-location-dot"></i> <span>İnönü mahallesi orhancık sokak no:4</span></li>
-                                <li className='contact-icon'><i class="fa-solid fa-envelope"></i></li><span>erdal_bal22@hotmail.com</span>
-                                <li className='contact-icon'><i class="fa-solid fa-phone"></i><span>0531 960 59 07</span></li>
+                                <li className='contact-icon'><i className="fa-solid fa-location-dot"></i> <span>İnönü mahallesi orhancık sokak no:4</span></li>
+                                <li className='contact-icon'><i className="fa-solid fa-envelope"></i><span>erdal_bal22@hotmail.com</span></li>
+                                <li className='contact-icon'><i className="fa-solid fa-phone"></i><span>0531 960 59 07</span></li>
                             </ul>
 
                         </div>

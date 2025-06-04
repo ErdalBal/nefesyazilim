@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from "react-router-dom";
 import '../../css/header.css'
 function Header() {
     return (
@@ -25,16 +26,17 @@ function Header() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ms-auto">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Anasayfa</a>
+          <NavLink to="/"  className={({isActive}) => `nav-link ${isActive ? 'active text-primary fw-bold' : '' }`}> Anasayfa </NavLink>
+          
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Hakkımızda</a>
+           <NavLink to="/about"  className={({isActive}) => `nav-link ${isActive ? 'active text-primary fw-bold' : '' }`}>Hakkımızda</NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Hizmetler</a>
+           <NavLink to="/service"  className={({isActive}) => `nav-link ${isActive ? 'active text-primary fw-bold' : '' }`}>Hizmetler</NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">İletişim</a>
+           <NavLink to="/contact"  className={({isActive}) => `nav-link ${isActive ? 'active text-primary fw-bold' : '' }`}>İletişim</NavLink>
         </li>
       </ul>
     </div>

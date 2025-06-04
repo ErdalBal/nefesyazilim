@@ -2,6 +2,7 @@
     background-color: #002147;
     height: auto;
     margin-top: 25px;
+    min-width: -webkit-fill-available;
 }
 
 
@@ -104,5 +105,31 @@
 }
 
 .contact-icon{
+   min-width: max-content;
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+
    
 }
+
+.contact-icon i{
+  margin-right: 25px;
+}
+
+.contact{
+
+   position: relative;
+    left: 55px;
+}
+
+
+@media (max-width: 575.98px) {
+     .contact{
+
+   position: relative;
+    left: 0;
+}
+    
+    
+    }

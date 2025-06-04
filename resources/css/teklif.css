@@ -1,0 +1,14 @@
+.teklif{
+
+    height:500px;
+    background-color: #0c5adb;
+    
+}
+.label{
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.teklif-container input{
+    padding: 15px;
+}

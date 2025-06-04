@@ -19,7 +19,7 @@ function Services() {
   </div>
 </div> */}
 
-    <div className="row  offset-md-2">
+    <div className="row   justify-content-center">
     <div className="col-4 card-container card-item">
         <div className="card border-primary mb-3" >
             
