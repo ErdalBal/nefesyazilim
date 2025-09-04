@@ -10,8 +10,8 @@ function Header() {
       <small>Telefon: +90 123 456 7890 | Email: info@example.com</small>
     </div>
     <div>
-      <a href="#" className="text-white me-3">Giriş Yap</a>
-      <a href="#" className="text-white">Kayıt Ol</a>
+      {/* <a href="#" className="text-white me-3">Giriş Yap</a>
+      <a href="#" className="text-white">Kayıt Ol</a> */}
     </div>
   </div>
 </header>

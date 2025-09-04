@@ -1,0 +1,46 @@
+    
+    .contact-title{
+
+        font-size: 40px;
+        font-weight: bold;
+
+    }
+.contact-card .col-md-4{
+
+    width: 30%;
+    height: 250px;
+}   
+
+.contact-card .col-md-4 .card i{
+
+    color: #0c5adb;
+    font-size: 58px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+
+.contact-card .col-md-4 .card label{
+
+   display: inline-block;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+
+.contact-teklif{
+
+    height:500px;
+    background-color:lightgrey;
+    
+}
+.label{
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.contact-teklif-container input{
+    padding: 15px;
+}
+
+

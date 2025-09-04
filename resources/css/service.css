@@ -1,0 +1,92 @@
+.service .card:hover{
+    border: 2px solid blue;
+   
+}
+
+
+.service .card{
+    width: 400px; 
+    height: 370px;
+}
+
+
+.service .card-title{
+
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-left: 148px;    
+    border-radius: 50%;
+}
+
+.service i{
+    font-size: 50px;
+}
+
+.service h6{
+    
+    font-size: 23px;
+    font-weight: 700;
+
+}
+
+.service .arrow{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+
+}
+
+.service .arrow i{
+
+    font-size: 31px;   
+    padding: 10px;
+    border-radius: 50%;
+    color: blue;
+    border: 2px solid;
+    margin-top: 50px;
+
+}
+
+.service .card:hover .arrow i{
+
+    font-size: 31px;   
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    background: blue;
+    border: 2px solid;
+
+}
+
+
+@media (max-width:768px){
+  .service .card{
+
+     width: 369px!important;
+    height: 370px;
+    margin-left: 20px;
+   }
+
+
+   .service .card-title{
+
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-left: 110px;    
+    border-radius: 50%;
+}
+
+}
+
+
